@@ -1,1 +1,96 @@
+body{
+	font-size 16px;
+	color: #fff;
+	background-color: #F4976C;
+	font-family: 'Helvetica', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #FBF8A6;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+.navbar-brand h1 {
+	font-family: 'Helvetica', sans-serif;
+	color: #303C6C;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #B4DFE5;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}  
+
+#nav-list {
+	margin-top: 10px;
+	text-align: center;
+}
+#nav-list a {
+	color: #303C6C;
+	text-align: center;
+	font-size: 1.8em;
+	text-decoration: none;
+}
+#nav-list a:hover {
+	background: #B4DFE5;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+/** END HEADER **/
+
+h2{
+	margin-top: 3%;
+	margin-bottom: 3%;
+	color: #FBE8A6;
+}
+
+.main-content {
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	position: relative;
+	border: 1px solid white;
+	padding: 10px;
+	background-color: #B4DFE5;
+	font-size: 100%;
+}
+
+.main-content h3 {
+	color: #303C6C;
+}
+
+
+/********** Large Devices Only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium Devices Only **********/
+@media (min-width: 922px) and (max-width: 1199px) {
+
+}
+
+/********** Small Devices Only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra Small Devices Only **********/
+@media (max-width: 767px) {
+
+}
 
